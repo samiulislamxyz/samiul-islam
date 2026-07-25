@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lobster&family=Manjari:wght@700&family=Philosopher:wght@700&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+/*font-family: 'Fira Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Manjari', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:#212529;
+    color: #fff;
+    font-family: 'Philosopher', sans-serif
+}
+:root{
+  --pink:#FC6D6D;
+  --bg:#aaaaaa1a;
+  --whit:#fff;
+  --text-hading:#FC6D6D;
+}
+/* bannger section */
+#banner-bg{
+    background:linear-gradient(rgba(0, 0, 0, 0.609),rgba(0, 0, 0, 0.632)),url(../image/software1.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/*Header manue section*/
+header{
+    margin-bottom: 60px;
+}
+.fa-bars{
+  color:var(--pink);
+
+}
+
+.navbar-toggler {
+  border: 1px solid var(--pink);
+
+}
+.navbar-brand{
+    color: var(--pink);
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+
+}
+.navbar-brand:hover{
+  color: var(--pink) !important; 
+}
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-link:hover{
+  color: var(--pink) !important; 
+}
+
+/*End Header manue section*/
+/* profile box section */
+.profile-box{}
+
+.imgbox img{
+   width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 100%;
+    border: 3px solid var(--pink)
+
+}
+.profile-box h3{
+    margin: 0;
+    padding-top: 16px;
+    color: var(--pink);
+    text-transform: uppercase;
+}
+
+
+.animate-typing {
+            font-size: 22px;
+            font-weight: bold;
+            color: var(--pink);
+            
+        }
+
+/*About me section on home page*/
+.about-img{
+  text-align: center;
+
+  background: var(--bg);
+  border-bottom-left-radius: 113px;
+  border-top-right-radius: 113px;
+  padding: 7px;
+}
+.about-img img{
+    border-radius: 10px;
+    width: 280px;
+  }
+.about-me h2{
+  color: var(--pink);
+    font-size: 30px;
+}
+.about-me > div > p{
+
+}
+.about-me > div > p > .fa{
+  color: var(--pink);
+}
+
+/*---Start Service box home page*/
+.section-title > h2 {
+	font-size: 22px;
+	color: var(--whit);
+	margin-left: 10px;
+}
+.section-title::before {
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 5px;
+  background: var(--pink);
+}
+.service-box {
+  background: var(--bg);
+  padding: 13px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  overflow: hidden;
+}
+.service-box:hover{
+  border:2px solid var(--pink);
+  /* transform: translateY(-50%,-50%); */
+}
+.service-box > .icon{
+  width: 105px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+}
+.service-box > .icon > img{width: 100%;}
+.service-box > div > h3 {
+  font-size: 25px;
+}
+.service-box > div > p{}
+/*---end Service box home page*/
+/* Start Counter section */
+.Counter-section{
+  background: url('../image/bg-counter.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.counter-box{}
+.counter-box > .fa {
+  font-size: 50px;
+  color: var(--pink);
+  margin-bottom: 10px;
+}
+.counter-box > span {
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+.counter-box > h4{}
+/* end Counter section */
+/* Start Service section on home page */
+.elem, .elem * {
+  box-sizing: border-box;
+  margin: 0 !important;	
+}
+.elem {
+  display: inline-block;
+  font-size: 0;
+  width: 100%;
+  /* border: 8px solid transparent; */
+  /* border-bottom: none; */
+  /* background: #fff; */
+  padding: 10px;
+  height: auto;
+  background-clip: padding-box;
+}
+.elem img{width: 100%;}
+.elem > span {
+  display: block;
+  cursor: pointer;
+  height: 0;
+  padding-bottom:	70%;
+  background-size: cover;	
+  background-position: center center;
+}
+
+.portfolio-box {
+  /* height: 304px; */
+  width: 100%;
+  background-color: var(--bg);
+  /* overflow: hidden; */
+  text-align: center;
+  margin-bottom:20px;
+}
+.preview-btn {
+  background-color: #484848;
+  padding: 10px 8px;
+}
+.preview-btn > a {
+  background-color: var(--pink);
+  padding: 6px 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.img-title h4{
+  font-size: 20px;
+}
+/* End Service section on home page */
+
+/*Start About page design */
+/* about-section */
+#page-top-bg{
+  background:linear-gradient(rgba(0, 0, 0, 0.609),rgba(0, 0, 0, 0.632)),url(../image/software1.jpg);
+    background-size: 100% 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+
+/* CV name section */
+.name h3{
+
+}
+.name p{
+  margin: 0px;
+}
+.cv-img img {
+  width: 130px;
+  border: 3px dashed var(--pink);
+}
+.cv-heading-title {
+  font-size: 22px;
+  color: var(--text-hading);
+  background: #fff;
+  padding: 2px 10px;
+  border: 2px solid #fc6d6d;
+  margin-top: 5px;
+}
+.sub-hading{
+  font-size: 18px;
+  color: var(--text-hading);
+}
+.cv-content{
+
+}
+.about-divider{
+  /* height: 8px;
+  width: 100%;
+  background-color: #484848;
+  margin: 0;
+  border-color: #fff; */
+}
+/* End */
+/*-------Scrollbar satrt----------*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    width: 10px;
+    background-color: #212529;
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+}
+::-webkit-scrollbar-thumb{
+    background:var(--pink);
+    width: 0;
+    height: 35%;
+    transition: 0.5s ease;
+}
+/*-------Scrollbar END----------*/
+
+/*PRELOADING------------ */
+
+#loader {
+    width: 100%;
+    height: 100vh;
+ background: #fff
+ url(../image/loader.gif);
+ background-repeat: no-repeat;
+ background-position: center;
+
+}
+
+
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+.product-box{
+  background:var(--pink);
+  padding: 10px 10px;
+}
+.product-box > .img-box{}
+.product-box > .img-box > img{
+  width:100%;
+}
+.product-box > .product-details{}
+.product-box > .product-details > .title{}
+.product-box > .product-details > .title > h3{}
+.product-box > .product-details > .button-sec{}
+
+
+
+
+
+
+
